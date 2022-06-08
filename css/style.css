@@ -15,8 +15,14 @@ img {
 
 /* Starting the media querie for tablet */
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 600px) {
     #page_header {
         background-color: orange;
+    }  
+}
+
+@media only screen and (min-width: 912px) {
+    #page_header {
+        background-color: purple;
     }  
 }
